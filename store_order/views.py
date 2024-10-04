@@ -15,4 +15,4 @@ def index(request):
         </body>
     </html>
     """
-    return HttpResponse(html_content)
+    return HttpResponse(html_content, content_type="text/html")
